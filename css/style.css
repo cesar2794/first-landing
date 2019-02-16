@@ -27,9 +27,11 @@ h2{
 	transition: all .5s ease;
 }
 
-.header-scroll.activo{
-	margin-top: 0;
-	opacity: 1;
+@media(min-width: 768px){
+	.header-scroll.activo{
+		margin-top: 0;
+		opacity: 1;
+	}
 }
 
 .header-scroll .nav-link{
